@@ -15,17 +15,17 @@
         }
         .thumbnail-list {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             overflow-y: auto;
             height: 90vh; /* Height for scrolling */
             margin-right: 20px;
             border: 1px solid #ccc;
             padding: 10px;
-            width: 120px; /* Width of the thumbnail container */
+            width: 95px; /* Width of the thumbnail container */
         }
         .thumbnail {
             cursor: pointer;
-            width: 100px; /* Thumbnail size */
+            width: 50px; /* Thumbnail size */
             margin-bottom: 10px;
             border: 1px solid #9e1414;
             border-radius: 4px;
@@ -36,8 +36,10 @@
         }
         #displayFrame {
             flex-grow: 1; /* Allow frame to grow and fill space */
-            max-width: 90%; /* Maximize width */
-            height: auto; /* Maintain aspect ratio */
+            max-width: 80%; /* Maximize width */
+            width: auto;
+            /*height: auto; /* Maintain aspect ratio */*/
+            max-height: 90vh; /* Prevent displayed image from exceeding viewport */
             border: 1px solid #ccc;        }
     </style>
 </head>
