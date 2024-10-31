@@ -1,3 +1,3 @@
 # T-Shirts
 My T-Shirt Designs
-[**Visit our status website →**](https://peburke.github.io/T-Shirts)
+[**Visit my t-shirt website →**](https://peburke.github.io/T-Shirts)
