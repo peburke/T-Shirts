@@ -41,7 +41,11 @@
             width: auto;
             /*height: auto; /* Maintain aspect ratio */*/
             max-height: 90vh; /* Prevent displayed image from exceeding viewport */
-            border: 1px solid #ccc;        }
+            border: 1px solid #ccc;
+	    overflow: auto; /* Ensures image scrolls if larger than frame */
+            object-fit: contain; /* Scales image to fit within frame */
+            display: none;
+	}
     </style>
 </head>
 <body>
